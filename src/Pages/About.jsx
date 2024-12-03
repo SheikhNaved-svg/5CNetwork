@@ -65,14 +65,14 @@ export default function About(){
             </p>
           </div>
         </div>
-
+     
         {/*whats our mission*/}
         <div className="px-5   custom-sm:px-10 custom-lg:px-60 2xl:px-40  py-20   flex flex-col lg:flex-row w-full items-center lg:items-start lg:justify-between 2xl:justify-between  custom-lg:justify-between ">
           {/*left*/}
-          <div className="  w-full    custom-sm:w-[500px] h-[300px] md:h-[320px] md:w-[625px]  lg:w-[50%]  2xl:h-[400px]  relative flex flex-col items-center justify-end ">
+          <div className="  w-full  h-[400px] lg:w-[50%]">
             <div
               ref={frameref}
-              className=" relative w-full h-full  overflow-hidden rounded-[20px]"
+              className=" relative w-full h-[300px] overflow-hidden rounded-[20px]"
             >
               <div className="absolute w-full h-full">
                 <img
@@ -175,7 +175,10 @@ export default function About(){
                   </svg>
                 </div>
               </div>
+
             </div>
+
+
           </div>
 
           {/*right*/}
@@ -302,7 +305,7 @@ export default function About(){
         </div>
 
         {/*employees*/}
-        <div className="py-10 w-full px-5 md:px-10 lg:px-20 2xl:px-40 custom-lg:px-60 lg:flex-row lg:items-center flex flex-col gap-10 ">
+        <div className="py-10  w-full px-5 md:px-10 lg:px-20 2xl:px-40 custom-lg:px-60 lg:flex-row lg:items-center flex flex-col gap-10 ">
           <div className="flex flex-col gap-7 lg:w-[50%] lg:pr-20 2xl:pr-40">
             <h1 className="font-semibold text-[36px]    leading-[54px] tracking-[0.5px] text-transparent bg-clip-text bg-custom-gradient2 text-center lg:text-start">
               Here it from <br className="hidden lg:block"></br>
@@ -314,11 +317,11 @@ export default function About(){
             </p>
           </div>
 
-          <div className="flex flex-col gap-6 lg:gap-8 2xl:gap-10 lg:w-[50%] 2xl:px-20">
-            <div className="grid  grid-cols-3 2xl:gap-y-8 md:grid-cols-6 gap-4 px-5 custom-sm:px-20 md:px-32 lg:px-0">
+          <div className="flex items-center md:items-stretch  flex-col gap-6 lg:gap-8 2xl:gap-10 lg:w-[50%] 2xl:px-20">
+            <div className="grid  grid-cols-3 2xl:gap-y-8 md:grid-cols-6 gap-4 px-5  md:px-32 lg:px-0">
               <img
                 className="rounded-full filter grayscale hover:grayscale-0 duration-300"
-                width="85"
+                width="85px"
                 src={emp1}
                 alt="image"
                 loading='lazy'
