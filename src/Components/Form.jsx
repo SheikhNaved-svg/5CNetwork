@@ -18,7 +18,7 @@ export default function Form() {
        
     }
   return (
-    <div className="   px-7 lg:pr-0  py-24 lg:py-0 custom-sm:flex justify-center custom-sm:w-full">
+    <div className="  px-7 lg:pr-0  py-24 lg:py-0 custom-sm:flex justify-center custom-sm:w-full">
       <div className="w-full   custom-sm:w-[400px] lg:w-[341px] py-8    rounded-3xl  bg-[#D9D9D9]  bg-opacity-20 backdrop-blur-custom shadow-inset-light">
         <form onSubmit={submitHandler} className=" flex flex-col gap-8 lg:gap-4 items-center   rounded-2xl ">
           <div className="text-[24px]  leading-6 font-medium text-white">Book Demo</div>

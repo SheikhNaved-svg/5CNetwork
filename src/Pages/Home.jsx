@@ -60,17 +60,13 @@ export default function Home() {
               interpretation platform. We are the market leaders in
               teleradiology services, generating over 1Mn reports per year.
             </div>
-            <div className="flex gap-2 items-center">
-              <div>
-              <PlayIcon />
-              </div>
-              <a
-                className="underline text-xl"
-                href="https://www.youtube.com/watch?v=QRVRVRE6Nck"
-              >
-                Watch How We Work
+            
+             
+              <a className="flex gap-2 items-center" href="https://www.youtube.com/watch?v=QRVRVRE6Nck">
+              <div><PlayIcon /></div>
+              <span  className="underline text-xl">Watch How We Work</span>
               </a>
-            </div>
+          
           </div>
           {/*form*/}
           <Form />
