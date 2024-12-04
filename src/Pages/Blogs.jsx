@@ -62,7 +62,7 @@ export default function Blogs(){
               {/*left*/}
               <div className="w-full lg:w-[50%]    md:px-40 lg:px-0 ">
                 <img
-                  className="lg:h-full xl:h-[280px] 2xl:h-full custom-lg:h-[428px]"
+                  className="lg:h-full xl:h-[280px] rounded-[20px] 2xl:h-full custom-lg:h-[428px]"
                   src={datas[0].imageUrl}
                   alt="error"
                   loading="lazy"
@@ -188,6 +188,9 @@ export default function Blogs(){
             </div>
           </NavLink>
         </div>
+
+        {/*testing*/}
+       
 
         {/*horizontal line*/}
         <div className="w-full h-[2px] bg-custom-gradient4"></div>

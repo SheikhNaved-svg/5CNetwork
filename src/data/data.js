@@ -14,7 +14,7 @@ const data=[
       "title": "Diagnosing the diagnostic process: 5C Network",
       "author": "Sam Sam",
       "date": "Dec 21 , 2021",
-      "imageUrl":"/images/blog2.jpg",
+      "imageUrl":"/images/blog2.jpeg",
       "content": "Radiology is a specialized branch of medicine using medical imaging technologies to diagnose and treat patients. The involvement of radiologists has increased drastically in the clinical management of patients with the development of medical image technology such as X-Ray, CT scan, MRI, PET scan, etc"
     },
     {
@@ -22,7 +22,7 @@ const data=[
       "title": "Government Hospitals and Teleradiology: 5C Network",
       "author": "Sam Sam",
       "date": "Dec 21 , 2021",
-      "imageUrl":"/images/blog3.jpg",
+      "imageUrl":"/images/blog3.jpeg",
       "content": "Healthcare is one of the largest service sectors in India as it should be, considering the population of India. Both the public sector and the private sector play a very active role. Government hospitals provide medical facilities at a very low cost to everyone whereas private hospital charges higher than the government."
     },
     {
@@ -30,7 +30,7 @@ const data=[
         "title": "We raised Series A to Revolutionise the Radiology Experience",
         "author": "Kalyan Sivasailam",
         "date": "Oct 12 , 2022",
-        "imageUrl":"/images/blog4.jpg",
+        "imageUrl":"/images/blog4.jpeg",
         "content": "Today, we announced our USD 4.6Mn Series A funding led by Celesta Capital, supported by Tata 1mg, Unitus Ventures, and Axilor Ventures, along with participation from some incredible angels. We were clear that we would only work with investors who really understood the business and the non-linear paths to scale."
       },
       {
@@ -38,7 +38,7 @@ const data=[
         "title": "Diagnosing the diagnostic process: 5C Network",
         "author": "Sam Sam",
         "date": "Dec 21 , 2021",
-        "imageUrl":"/images/blog2.jpg",
+        "imageUrl":"/images/blog2.jpeg",
         "content": "Radiology is a specialized branch of medicine using medical imaging technologies to diagnose and treat patients. The involvement of radiologists has increased drastically in the clinical management of patients with the development of medical image technology such as X-Ray, CT scan, MRI, PET scan, etc"
       },
       {
@@ -46,7 +46,7 @@ const data=[
        "title": "We raised Series A to Revolutionise the Radiology Experience",
         "author": "Kalyan Sivasailam",
         "date": "Oct 12 , 2022",
-        "imageUrl":"/images/blog4.jpg",
+        "imageUrl":"/images/blog4.jpeg",
         "content": "Today, we announced our USD 4.6Mn Series A funding led by Celesta Capital, supported by Tata 1mg, Unitus Ventures, and Axilor Ventures, along with participation from some incredible angels. We were clear that we would only work with investors who really understood the business and the non-linear paths to scale."
       },
       {
@@ -54,7 +54,7 @@ const data=[
         "title": "Government Hospitals and Teleradiology: 5C Network",
       "author": "Sam Sam",
       "date": "Dec 21 , 2021",
-      "imageUrl":"/images/blog3.jpg",
+      "imageUrl":"/images/blog3.jpeg",
       "content": "Healthcare is one of the largest service sectors in India as it should be, considering the population of India. Both the public sector and the private sector play a very active role. Government hospitals provide medical facilities at a very low cost to everyone whereas private hospital charges higher than the government."
        
       }

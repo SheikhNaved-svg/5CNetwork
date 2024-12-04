@@ -34,7 +34,7 @@ export default function Card({author,date,title,content,image}){
           <div className=" border p-3 2xl:p-7 rounded-lg ">
           {/*left*/}
             <div className="">
-              <img src={image} alt='error' loading='lazy' width='100%'  />
+              <img className='rounded-xl' src={image} alt='error' loading='lazy' width='100%'  />
             </div >
         {/*right*/}
             <div className="pt-5 2xl:pt-10"> 
