@@ -95,7 +95,7 @@ function App() {
 
   return (
    <>
-   <Suspense fallback={<div>loader...</div>}>
+   <Suspense fallback={<h1 className='text-[48px] font-custom font-semibold w-full h-screen flex justify-center items-center'>Loading...</h1>}>
    <RouterProvider router={router} />
    </Suspense>
    

@@ -11,7 +11,7 @@ export default function Blogs() {
   }, []);
 return (
     <div className="font-custom scroll-smooth">
-      <Suspense fallback={<div>loader...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
       {/*hero*/}
       <BlogHero />
       {/*large card*/}

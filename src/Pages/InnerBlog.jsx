@@ -22,7 +22,7 @@ export default function InnerBlog() {
   }
   return (
     <div className="font-custom  ">
-      <Suspense fallback={<div>loader..</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
       {/*hero*/}
       <IbHero />
       {/*content*/}

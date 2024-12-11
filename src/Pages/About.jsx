@@ -13,7 +13,7 @@ export default function About() {
 
   return (
     <div className="font-custom">
-      <Suspense fallback={<div>loader</div>} >
+      <Suspense fallback={<div>Loading...</div>} >
       {/*hero*/}
       <AboutHero />
       {/*whats our mission*/}

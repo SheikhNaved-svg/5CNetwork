@@ -20,7 +20,7 @@ export default function Careers() {
   }
   return (
     <div className="scroll-smooth font-custom ">
-      <Suspense fallback={<div>loader..</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
       {/*hero*/}
       <CareersHero scrollTo={scrollTo} />
       {/*life at 5C*/}

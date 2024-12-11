@@ -6,7 +6,7 @@ const IsServices = React.lazy(() => import("../Components/IsServices"));
 export default function InnerServices() {
   return (
     <div className="font-custom">
-      <Suspense fallback={<div>loader...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
       {/*hero*/}
       <IsHero />
       {/*slider*/}

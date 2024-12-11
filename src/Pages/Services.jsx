@@ -12,7 +12,7 @@ export default function Services() {
 
   return (
     <div className="font-custom">
-      <Suspense fallback={<div>loader..</div>} >
+      <Suspense fallback={<div>Loading...</div>} >
       {/*hero*/}
       <ServicesHero />
       {/*upper two card*/}
