@@ -1,5 +1,5 @@
 import { one} from "../assets/assets"
-import FiveCrise from "../buttons/fiveCrise"
+
 export default function AcademicsTwo(){
     return(
         <div className="px-5 lg:px-10 xl:px-20 2xl:px-40 custom-lg:px-60 pt-20 flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-0 w-full">
@@ -18,7 +18,7 @@ export default function AcademicsTwo(){
               <p>The 5C-RAISE program utilizes a state-of-the-art learning management system (LMS) for enhancing the learner's learning process.</p>
               <p>Currently, our masterclass program has a capacity of 20 radiologists per batch, and are usually filled up in 24-48 hours of launch. The batches are kept small to promote personal interaction and doubt solving amongst the radiologist.</p>
             </div>
-           <FiveCrise />
+            <button className="text-[#FFFFFF] bg-[#2D5980] rounded-[8px] w-[117px] h-[40px] font-semibold text-[14px] leading-6 hover:bg-white hover:text-black border-2 border-[#2D5980] hover:border-black duration-300">5C Raise</button>
 
           </div>
 

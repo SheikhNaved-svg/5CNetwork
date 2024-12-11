@@ -1,5 +1,5 @@
 import {two } from "../assets/assets"
-import FiveCrise from "../buttons/fiveCrise"
+
 export default function AcademicsThree(){
     return(
         <div className="px-5 lg:px-10 xl:px-20 2xl:px-40 custom-lg:px-60 py-20 flex flex-col-reverse lg:flex-row lg:items-center gap-10 lg:gap-0 w-full">
@@ -12,7 +12,7 @@ export default function AcademicsThree(){
             <p>Owing to the success of academic initiatives, 5C will soon organise a fellowship program under 5C-RAISE from 2022 onwards. The duration of this program will be a minimum of 6 months. This fellowship will deal with all the training associated with AI tools, the software employed for tele-radiology and efficient interpretation of images.</p>
             <p>Lastly, as a service to the medical fraternity who we work hand-in-glove with, we have set up centers of excellence in neurology, cardiology, oncology and mammography. The sub-specialists from these fields will deliver sessions to train budding radiologists.</p>
            </div>
-          <FiveCrise />
+           <button className="text-[#FFFFFF] bg-[#2D5980] rounded-[8px] w-[117px] h-[40px] font-semibold text-[14px] leading-6 hover:bg-white hover:text-black border-2 border-[#2D5980] hover:border-black duration-300">5C Raise</button>
 
          </div>
        {/*image*/}
