@@ -1,10 +1,12 @@
-import IsHero from "../Components/IsHero";
-import IsSlider from "../Components/IsSlider";
-import HorizontalLine from "../Components/HorizontalLine";
-import IsServices from "../Components/IsServices";
+import React,{Suspense} from 'react';
+const IsHero = React.lazy(() => import("../Components/IsHero"));
+const IsSlider = React.lazy(() => import("../Components/IsSlider"));
+const HorizontalLine = React.lazy(() => import("../Components/HorizontalLine"));
+const IsServices = React.lazy(() => import("../Components/IsServices"));
 export default function InnerServices() {
   return (
     <div className="font-custom">
+      <Suspense fallback={<div>loader...</div>}>
       {/*hero*/}
       <IsHero />
       {/*slider*/}
@@ -13,6 +15,7 @@ export default function InnerServices() {
       <HorizontalLine />
       {/*services*/}
       <IsServices />
+      </Suspense>
     </div>
   );
 }

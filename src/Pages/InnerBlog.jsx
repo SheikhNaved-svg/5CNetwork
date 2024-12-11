@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom";
 import data from "../data/data";
-import { useEffect } from "react";
-import IbHero from "../Components/IbHero";
-import IbContent from "../Components/IbContent";
-import HorizontalLine from "../Components/HorizontalLine";
-import IbReadmore from "../Components/IbReadmore";
+import React,{Suspense, useEffect } from "react";
+
+const IbHero = React.lazy(()=> import("../Components/IbHero"));
+const IbContent = React.lazy(()=> import("../Components/IbContent"));
+const HorizontalLine = React.lazy(()=> import("../Components/HorizontalLine"));
+const IbReadmore = React.lazy(() => import("../Components/IbReadmore"));
 export default function InnerBlog() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -21,6 +22,7 @@ export default function InnerBlog() {
   }
   return (
     <div className="font-custom  ">
+      <Suspense fallback={<div>loader..</div>}>
       {/*hero*/}
       <IbHero />
       {/*content*/}
@@ -29,6 +31,7 @@ export default function InnerBlog() {
       <HorizontalLine />
       {/*readmore*/}
       <IbReadmore />
+      </Suspense>
 
      
     </div>

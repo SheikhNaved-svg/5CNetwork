@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css'
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-
 const Home = React.lazy(()=>import("./Pages/Home"));
 const About = React.lazy(()=>import("./Pages/About"));
 const Careers = React.lazy(()=>import("./Pages/Careers"));
@@ -13,7 +12,6 @@ const Services = React.lazy(()=>import("./Pages/Services"));
 const Signin = React.lazy(()=>import("./Pages/Signin"));
 const InnerBlog = React.lazy(()=>import("./Pages/InnerBlog"));
 const InnerServices = React.lazy(()=>import("./Pages/innerServices"));
-
 const router=createBrowserRouter(
   [
     {
