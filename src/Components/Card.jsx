@@ -47,10 +47,10 @@ export default function Card({author,date,title,content,image}){
 </svg></div>
 
       <div ref={arrowRef} className=""><svg xmlns="http://www.w3.org/2000/svg" width="31" height="20" viewBox="0 0 31 20" fill="none">
-<g clip-path="url(#clip0_164_1353)">
-<path d="M4 10H27" stroke="#2D5980" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24.5 13.3333L27.8333 10" stroke="#2D5980" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24.5 6.66663L27.8333 9.99996" stroke="#2D5980" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<g clipPath="url(#clip0_164_1353)">
+<path d="M4 10H27" stroke="#2D5980" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M24.5 13.3333L27.8333 10" stroke="#2D5980" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M24.5 6.66663L27.8333 9.99996" stroke="#2D5980" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"/>
 </g>
 <defs>
 <clipPath id="clip0_164_1353">
@@ -59,10 +59,10 @@ export default function Card({author,date,title,content,image}){
 </defs>
 </svg></div>
       <div ref={arrowRef2} className="hidden"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-<g clip-path="url(#clip0_164_1346)">
-<path d="M4.16669 10H15.8334" stroke="#2D5980" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.5 13.3333L15.8333 10" stroke="#2D5980" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.5 6.66663L15.8333 9.99996" stroke="#2D5980" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<g clipPath="url(#clip0_164_1346)">
+<path d="M4.16669 10H15.8334" stroke="#2D5980" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12.5 13.3333L15.8333 10" stroke="#2D5980" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12.5 6.66663L15.8333 9.99996" stroke="#2D5980" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round"/>
 </g>
 <defs>
 <clipPath id="clip0_164_1346">

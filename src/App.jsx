@@ -1,34 +1,35 @@
+import React ,{ Suspense } from 'react';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Careers from "./Pages/Careers";
-import Academics from "./Pages/Academics";
-import Blogs from "./Pages/Blogs";
-import Services from "./Pages/Services";
-import Footer from "./Components/Footer";
-import Signin from "./Pages/Signin";
 import './App.css'
-import InnerBlog from "./Pages/InnerBlog";
-import InnerServices from "./Pages/innerServices";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+
+const Home = React.lazy(()=>import("./Pages/Home"));
+const About = React.lazy(()=>import("./Pages/About"));
+const Careers = React.lazy(()=>import("./Pages/Careers"));
+const Academics = React.lazy(()=>import("./Pages/Academics"));
+const Blogs = React.lazy(()=>import("./Pages/Blogs"));
+const Services = React.lazy(()=>import("./Pages/Services"));
+const Signin = React.lazy(()=>import("./Pages/Signin"));
+const InnerBlog = React.lazy(()=>import("./Pages/InnerBlog"));
+const InnerServices = React.lazy(()=>import("./Pages/innerServices"));
 
 const router=createBrowserRouter(
   [
     {
       path:'/',
-      element:
-      <div>
+      element:<div>
        <Navbar />
-      <Home />
-      <Footer />
+       <Home />
+       <Footer />
       </div>
     },
     {
       path:'/about',
       element:<div>
         <Navbar />
-        <About />
-        <Footer />
+       <About />
+    <Footer />
       </div>
     },
     {
@@ -43,7 +44,7 @@ const router=createBrowserRouter(
       path:'/careers',
       element:<div>
         <Navbar />
-        <Careers />
+       <Careers />
         <Footer />
       </div>
     },
@@ -51,7 +52,7 @@ const router=createBrowserRouter(
       path:'/academics',
       element:<div>
         <Navbar />
-        <Academics />
+       <Academics />
         <Footer />
       </div>
     },
@@ -83,7 +84,7 @@ const router=createBrowserRouter(
       path:'/innerblog/:id',
       element:<div>
         <Navbar />
-        <InnerBlog />
+       <InnerBlog />
         <Footer />
       </div>
     }
@@ -96,7 +97,9 @@ function App() {
 
   return (
    <>
+   <Suspense fallback={<div>loader...</div>}>
    <RouterProvider router={router} />
+   </Suspense>
    
    </>
   )

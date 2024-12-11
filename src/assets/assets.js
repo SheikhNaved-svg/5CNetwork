@@ -36,4 +36,8 @@ import one from './one.jpg'
 import two from './two.jpg'
 import burgerbar from './burger-bar.png'
 import burgercross from './burger-cross.png';
-export {burgerbar,burgercross,two,one,bw2,group,ring,doc,doc2,doc3,nurse,sc2,sc3,sc4,certificate,emp1,emp2,emp3,emp4,emp5,emp6,emp7,emp8,emp9,emp10,emp11,emp12,frame1,frame2,frame3,frame4,frame5,person1,person2,pic1,pic2,pic3};
+import blog1 from './blog1.jpg';
+import blog2 from './blog2.jpeg';
+import blog3 from './blog3.jpeg';
+import blog4 from './blog4.jpeg';
+export {blog1,blog2,blog3,blog4,burgerbar,burgercross,two,one,bw2,group,ring,doc,doc2,doc3,nurse,sc2,sc3,sc4,certificate,emp1,emp2,emp3,emp4,emp5,emp6,emp7,emp8,emp9,emp10,emp11,emp12,frame1,frame2,frame3,frame4,frame5,person1,person2,pic1,pic2,pic3};
